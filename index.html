@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>G-Movie</title>
+</head>
+<body>
+    <header>
+        <!--- Navbar --->
+     <div class="backgrounds">
+        <nav class="navbar navbar-expand-lg backgrounds2">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="index.html">G-Movie</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white border rounded-pill px-2" aria-current="page" href="index.html">Tendencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white border rounded-pill px-2" aria-current="page" href="register.html">Registrarse</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn btn-dark nav-link active text-white border rounded-pill px-2" aria-current="page" href="iniciarsession.html">Iniciar Sesión</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+       
+
+        <!-- IMG Principal -->
+        <div class="centro d-flex flex-column justify-content-center align-items-center">
+            <h1 class="text-white display-4">Películas y series ilimitadas en un solo lugar <br>
+            Disfruta donde quieras. <br>
+            Cancela en cualquier momento. </h1>
+            <a type="button" class="btn btn-danger m-5" href="register.html">Registrarte</a>
+        </div>
+        
+   
+    <!-- Contenidos -->
+
+    <div class="container-fluid d-flex flex-column align-items-center backgrounds">
+
+      <h1 class="text-white">Que tienes planeado ver hoy?</h1>
+      <form>
+        <div class="container-fluid">
+          <input type="text" class="input" aria-describedby="text" placeholder="Buscar...">
+          <button type="submit" class="button">Buscar</button>
+        </div>
+      </form>
+    </div>
+        <hr>
+    
+        <div class="container my-5" data-aos="fade-down">
+          <div class="row">
+            <!-- Películas -->
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+              <div class="card box">
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/w88Obs6wAdhlmYziKXz8EsKDmJs.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                <div class="text-overlay">Knuckles</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+              <div class="card box">
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/346ju9C5zy0tkzfQoetOYtM74gw.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
+                <div class="text-overlay">Dead Boy Detectives</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+              <div class="card box">
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/4lhR4L2vzzjl68P1zJyCH755Oz4.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
+                <div class="text-overlay">Monkey Man</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+              <div class="card box">
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/p7jyFWiLyHPttqYBFAlLJwtYTYH.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
+                <div class="text-overlay">Love Lies Bleeding</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+              <div class="card box">
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
+                <div class="text-overlay">Shogun</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+              <div class="card box">
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
+                <div class="text-overlay">Fallout</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+              <div class="card box">
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/cxevDYdeFkiixRShbObdwAHBZry.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
+                <div class="text-overlay">Rebel Moon</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+              <div class="card box">
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/H6vke7zGiuLsz4v4RPeReb9rsv.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
+                <div class="text-overlay">Challengers</div>
+              </div>
+            </div>
+           </div>
+        </div>
+
+        <!--Botones-->
+        <div class="container d-flex flex-column align-items-center">
+        <div class="Botones">
+          <button type="button">Anterior</button>
+          <button type="button">Siguiente</button>
+        </div>
+      </div>
+      <hr>
+      <div class="container d-flex flex-column align-items-center">
+        <h1 class="text-white">Las más aclamadas</h1>
+        <div class="container mt-5">
+          <div class="row flex-nowrap overflow-auto scroll">
+              <div class="col-4">
+                  <div class="card box">
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/w88Obs6wAdhlmYziKXz8EsKDmJs.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                    <div class="text-overlay">Knuckles</div>
+                      </div>
+                  </div>
+              
+              <div class="col-4">
+                  <div class="card box">
+                      <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/346ju9C5zy0tkzfQoetOYtM74gw.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                      <div class="text-overlay">Dead Boy Detectives</div>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="card box">
+                
+                      <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/4lhR4L2vzzjl68P1zJyCH755Oz4.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                      <div class="text-overlay">Monkey Man</div>
+                  </div>
+              </div>
+              <div class="col-4">
+                <div class="card box">
+              
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/p7jyFWiLyHPttqYBFAlLJwtYTYH.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                    <div class="text-overlay">Love Lies Bleeding</div>
+                </div>
+            </div>
+            <div class="col-4">
+              <div class="card box">
+            
+                  <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                  <div class="text-overlay">Shogun</div>
+              </div>
+          </div>
+          <div class="col-4">
+            <div class="card box">
+          
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                <div class="text-overlay">Fallout</div>
+            </div>
+        </div>
+        <div class="col-4">
+          <div class="card box">
+        
+              <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/cxevDYdeFkiixRShbObdwAHBZry.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+              <div class="text-overlay">Rebel Moon</div>
+          </div>
+      </div>
+      <div class="col-4">
+        <div class="card box">
+      
+            <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/H6vke7zGiuLsz4v4RPeReb9rsv.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+            <div class="text-overlay">Challengers</div>
+        </div>
+    </div>
+  </div>
+      </div>
+     </div>
+     
+              <!-- Repite más columnas si necesitas más carteleras -->
+          </div>
+      </div>
+        </div>
+       </div>
+     </div>
+     
+     <footer class="backgrounds2 text-white">
+      <div class="container py-3">
+          <div class="row">
+              <div class="col-md-3">
+                  <h5>Servicios</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-white">Términos y condiciones</a></li>
+                      <li><a href="#" class="text-white">Darme de baja</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h5>Ayuda</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-white">Preguntas frecuentes</a></li>
+                      <li><a href="#" class="text-white">Soporte técnico</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h5>Administración</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-white">Administrador de Películas</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h5>Contacto</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-white">Envíanos un mensaje</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+  </header>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+  </body>
+</html>
