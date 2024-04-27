@@ -81,12 +81,12 @@ body::-webkit-scrollbar-thumb:hover{
   }
   .text-overlay {
     position: absolute;
-    top: 50%;  /* Centra el texto verticalmente */
-    left: 50%; /* Centra el texto horizontalmente */
-    transform: translate(-50%, -50%); /* Ajuste fino del centro */
-    color: rgba(255, 255, 255, .8); /* Color del texto */
-    font-size: 20px; /* Tamaño del texto */
-    font-weight: bold; /* Peso del texto */
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: rgba(255, 255, 255, .8); 
+    font-size: 20px; 
+    font-weight: bold; 
     background: rgba(0,0,0,0.4);
     opacity: 0;
     transition: .5s;
@@ -110,8 +110,8 @@ button {
 
 
 button:hover {
-    background-color: #c45b5b; /* Cambio de color de fondo al pasar el mouse */
-    color: #000; /* Cambio de color de texto al pasar el mouse */
+    background-color: #c45b5b; 
+    color: #000; 
 }
 hr {
     border-top: 10px solid red!important;
