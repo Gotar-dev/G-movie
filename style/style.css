@@ -45,6 +45,20 @@ body::-webkit-scrollbar-thumb:hover{
     background-repeat: no-repeat;
     height: 100vh;
 }
+.centro3{
+    margin-top: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/mario-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
 .backgrounds{
     background-color: black;
 }
@@ -108,6 +122,15 @@ button {
     font-size: 1.2rem;
 }
 
+.backimg{
+    background-color: black !important; 
+}
+
+.imagencard {
+width: 18vw !important;
+border: 10px;
+border-radius: 30px;
+}
 
 button:hover {
     background-color: #c45b5b; 
@@ -131,4 +154,98 @@ hr {
 .scroll::-webkit-scrollbar-thumb:hover{
     background-color: #220e0e;
     border-radius: 8px;
+}
+.contenedor {
+    display: flex;
+    margin: 20px;
+    background-color: #181419;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.image img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;;
+}
+
+.details h2 {
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.details h3 {
+    margin: 15px 0 5px 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+    color: #fff;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+
+
+.paginacion button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	background: #241744;
+	color: #fff;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	transition: .3s ease all;
+}
+
+.paginacion button:hover {
+	background: #137c32;
 }

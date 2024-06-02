@@ -25,7 +25,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active text-white border rounded-pill px-2" aria-current="page" href="index.html">Tendencia</a>
+                    <a class="nav-link active text-white border rounded-pill px-2" aria-current="page" href="#tendencia">Tendencia</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active text-white border rounded-pill px-2" aria-current="page" href="register.html">Registrarse</a>
@@ -52,7 +52,6 @@
         
    
     <!-- Contenidos -->
-
     <div class="container-fluid d-flex flex-column align-items-center backgrounds">
 
       <h1 class="text-white">Que tienes planeado ver hoy?</h1>
@@ -68,62 +67,18 @@
         <div class="container my-5" data-aos="fade-down">
           <div class="row">
             <!-- Películas -->
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-              <div class="card box">
-                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/w88Obs6wAdhlmYziKXz8EsKDmJs.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
-                <div class="text-overlay">Knuckles</div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-              <div class="card box">
-                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/346ju9C5zy0tkzfQoetOYtM74gw.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
-                <div class="text-overlay">Dead Boy Detectives</div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-              <div class="card box">
-                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/4lhR4L2vzzjl68P1zJyCH755Oz4.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
-                <div class="text-overlay">Monkey Man</div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-              <div class="card box">
-                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/p7jyFWiLyHPttqYBFAlLJwtYTYH.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
-                <div class="text-overlay">Love Lies Bleeding</div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-              <div class="card box">
-                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
-                <div class="text-overlay">Shogun</div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-              <div class="card box">
-                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
-                <div class="text-overlay">Fallout</div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-              <div class="card box">
-                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/cxevDYdeFkiixRShbObdwAHBZry.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
-                <div class="text-overlay">Rebel Moon</div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-              <div class="card box">
-                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/H6vke7zGiuLsz4v4RPeReb9rsv.jpg" class="card-img-top rounded" alt="Nombre de la película 2">
-                <div class="text-overlay">Challengers</div>
-              </div>
-            </div>
-           </div>
+            <div class="contenedor" id="contenedor"></div>
+
+	<div class="paginacion">
+	
+	</div>
         </div>
 
         <!--Botones-->
         <div class="container d-flex flex-column align-items-center">
         <div class="Botones">
-          <button type="button">Anterior</button>
-          <button type="button">Siguiente</button>
+          <button id="btnAnterior">Anterior</button>
+          <button id="btnSiguiente">Siguiente</button>
         </div>
       </div>
       <hr>
@@ -132,57 +87,57 @@
         <div class="container mt-5">
           <div class="row flex-nowrap overflow-auto scroll">
               <div class="col-4">
-                  <div class="card box">
-                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/w88Obs6wAdhlmYziKXz8EsKDmJs.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                  <div class="card box backimg">
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/w88Obs6wAdhlmYziKXz8EsKDmJs.jpg" class="rounded imagencard" alt="Nombre de la película 1">
                     <div class="text-overlay">Knuckles</div>
                       </div>
                   </div>
               
               <div class="col-4">
-                  <div class="card box">
-                      <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/346ju9C5zy0tkzfQoetOYtM74gw.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                  <div class="card box backimg">
+                      <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/346ju9C5zy0tkzfQoetOYtM74gw.jpg" class="rounded imagencard" alt="Nombre de la película 1">
                       <div class="text-overlay">Dead Boy Detectives</div>
                   </div>
               </div>
               <div class="col-4">
-                  <div class="card box">
+                  <div class="card box backimg">
                 
-                      <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/4lhR4L2vzzjl68P1zJyCH755Oz4.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                      <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/4lhR4L2vzzjl68P1zJyCH755Oz4.jpg" class="rounded imagencard" alt="Nombre de la película 1">
                       <div class="text-overlay">Monkey Man</div>
                   </div>
               </div>
               <div class="col-4">
-                <div class="card box">
+                <div class="card box backimg">
               
-                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/p7jyFWiLyHPttqYBFAlLJwtYTYH.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                    <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/p7jyFWiLyHPttqYBFAlLJwtYTYH.jpg" class="rounded imagencard" alt="Nombre de la película 1">
                     <div class="text-overlay">Love Lies Bleeding</div>
                 </div>
             </div>
             <div class="col-4">
-              <div class="card box">
+              <div class="card box backimg">
             
-                  <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                  <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg" class="rounded imagencard" alt="Nombre de la película 1">
                   <div class="text-overlay">Shogun</div>
               </div>
           </div>
           <div class="col-4">
-            <div class="card box">
+            <div class="card box backimg">
           
-                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+                <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg" class="rounded imagencard" alt="Nombre de la película 1">
                 <div class="text-overlay">Fallout</div>
             </div>
         </div>
         <div class="col-4">
-          <div class="card box">
+          <div class="card box backimg">
         
-              <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/cxevDYdeFkiixRShbObdwAHBZry.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+              <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/cxevDYdeFkiixRShbObdwAHBZry.jpg" class="rounded imagencard" alt="Nombre de la película 1">
               <div class="text-overlay">Rebel Moon</div>
           </div>
       </div>
       <div class="col-4">
-        <div class="card box">
+        <div class="card box backimg">
       
-            <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/H6vke7zGiuLsz4v4RPeReb9rsv.jpg" class="card-img-top rounded" alt="Nombre de la película 1">
+            <img src="https://media.themoviedb.org/t/p/w220_and_h330_face/H6vke7zGiuLsz4v4RPeReb9rsv.jpg" class="rounded imagencard" alt="Nombre de la película 1">
             <div class="text-overlay">Challengers</div>
         </div>
     </div>
